@@ -121,7 +121,7 @@ print(isinstance(x, int))
                             или подклассом класса classinfo (второй аргумент).яяяяяяяя """
 
 
-#exercises
+#EXERCISES:
 
  #The statement below would print a Boolean value, which one?
 
