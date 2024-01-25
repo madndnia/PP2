@@ -128,3 +128,4 @@ print(isinstance(x, int))
 print(10 > 9)
 
 True
+
