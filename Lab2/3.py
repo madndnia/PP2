@@ -31,7 +31,7 @@ thislist = list(("apple", "banana", "cherry"))
 # note the double round-brackets
 print(thislist)
 
-"""Python Collections (Arrays)
+"""Python Collections (Arrays) доп инфа 
 There are four collection data types in the Python programming language:
 
 List is a collection which is ordered and changeable. Allows duplicate members.
