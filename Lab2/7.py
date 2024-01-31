@@ -179,7 +179,3 @@ c = 2
 if a == c or b == c:
 
   print("YES")
-
-
-
-
