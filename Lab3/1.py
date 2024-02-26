@@ -8,10 +8,11 @@ ounces = 28.3495231 * grams"""
 
 def items_in_ounces(grams):
     return 28.3495231 * grams
-
-"""Read in a Fahrenheit temperature. Calculate and display the 
+  
+"" "Read in a Fahrenheit temperature. Calculate and display the 
 equivalent centigrade temperature. The following formula is used 
 for the conversion:"""
+
 
 
 
