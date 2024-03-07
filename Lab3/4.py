@@ -1,41 +1,21 @@
-#Classes
+"""You are given list of numbers separated by spaces. Write a 
+function filter_prime which will take list of numbers as an 
+agrument and returns only prime numbers from the list."""
 
-class MyClass:
-    x = 5
+def is_prime(num):
+    if num < 2:
+        return False
+    for i in range(2, int(num**0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
 
-#Creat 
-    
+def filter_prime(numbers):
+    prime_numbers = []
+    for num in numbers:
+        if is_prime(num):
+            prime_numbers.append(num)
+    return prime_numbers
 
-#EXAMPLE 1:
-
-class Strings:
-    def getString(self):
-        self.word = input()
-    def printString(self):
-        print(self.word.upper())
-
-s = Strings()
-s.getString()
-s.printString()
-
-
-
-
-# class Shape:
-#     def init(self,length):
-#         self.length = length
-#     def area(self):
-#         print(0)
-
-# class Square(Shape):
-#     def init(self, length):
-#         super().init(length)
-#         # self.color = color
-#     def area(self):
-#         print(self.length**2)
-
-
-
-# sq = Square(8)
-# sq.length = 6
-# sq.area()
+numbers_list = [23, 4, 17, 11, 6, 9, 29, 13]
+print(filter_prime(numbers_list)) 
