@@ -3,6 +3,6 @@ from user and print all permutations of that string."""
 
 def strPermut():
      word = input()
-     perm = permutations(word)
+     perm = permut(word)
      for i in list(perm):
          print(i)
