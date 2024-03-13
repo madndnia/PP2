@@ -5,4 +5,4 @@ def strPermut():
      word = input()
      perm = permut(word)
      for i in list(perm):
-         print(i)
+         print(i)     #using permutation library
